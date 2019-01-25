@@ -9,8 +9,6 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Data", "data-generation\Data.pyproj", "{4B004348-1938-49E2-947F-DBBFD4AD03C4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{4F346096-0F58-4B86-B653-211CC310975F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,9 +28,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{60207D2B-60DC-4962-826D-21792D71ADE3} = {4F346096-0F58-4B86-B653-211CC310975F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB567130-BD19-4F3C-8853-931A12659C25}
