@@ -5,6 +5,7 @@
     <UserSecretsId>aspnet-Web-24FF2A51-CBB1-4D02-A7D8-1FC27E1CBAFC</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+    <Configurations>Debug;Release;Web;Data</Configurations>
   </PropertyGroup>
 
   <ItemGroup>

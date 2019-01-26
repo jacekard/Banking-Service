@@ -1,9 +1,9 @@
 FROM python:latest
 
-RUN apk update
+RUN pip install --upgrade pip
 
 RUN mkdir /app
 WORKDIR /app
-RUN pip install Faker
+RUN pip install Faker && pip install requests
 
-COPY . .
+#COPY . .
