@@ -3,7 +3,7 @@
     using Microsoft.AspNetCore.Http;
     using System.ComponentModel.DataAnnotations;
 
-    public class User
+    public class Person
     {
         [Key]
         public long Id { get; set; }

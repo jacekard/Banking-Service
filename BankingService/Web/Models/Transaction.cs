@@ -15,8 +15,8 @@
 
         public double Amount { get; set; }
 
-        public User Sender { get; set; }
+        public Person Sender { get; set; }
 
-        public User Receiver { get; set; }
+        public Person Receiver { get; set; }
     }
 }
